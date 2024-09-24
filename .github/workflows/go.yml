@@ -44,7 +44,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: <dockerhub_username>/fianl13:v1.0
+          images: <dockerhub_username>/final13:v1.2
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
