@@ -44,7 +44,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5.5.1
         with:
-          images: <Docker ID>/13_final
+          images: sladysek/final_13
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
